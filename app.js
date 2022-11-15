@@ -1,4 +1,5 @@
 const express = require("express");
+const cors = require("cors");
 const artistsController = require("./controllers/artists");
 const app = express();
 
